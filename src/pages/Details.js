@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const s = () => {
-    return (
-        <div>s</div>
-    )
-}
+const s = () => (
+  <div>s</div>
+);
 
-export default s
+export default s;
