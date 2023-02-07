@@ -1,0 +1,40 @@
+.details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fd5294;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 2%;
+  justify-content: space-around;
+  color: white;
+}
+
+.details h2,
+h3 {
+  margin: 2% 0;
+}
+
+.detailsimage {
+  width: 35%;
+}
+
+.details-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-info h3 {
+  height: 4rem;
+  color: white;
+  background: #ea508d;
+  padding: 2%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.details-info h3:nth-child(even) {
+  background: #d1447a;
+}
