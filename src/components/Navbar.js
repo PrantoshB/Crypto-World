@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <div className="navbar">
-    <i className="fa-solid fa-chevron-left" />
+    <Link to="/">
+      <i className="fa-solid fa-chevron-left" />
+    </Link>
+
     <p>
       Crypto World
     </p>
