@@ -2,11 +2,11 @@ import fetchCoin from '../../services/fetchCoin';
 
 const FETCH_COIN = 'FETCH_COIN';
 const initialState = {
-  coin: [],
+  coindata: [],
 };
 
-export const fetchCoinAction = () => async (dispatch) => {
-  const coin = await fetchCoin();
+export const fetchCoinAction = (id) => async (dispatch) => {
+  const coin = await fetchCoin(id);
   dispatch({
     type: FETCH_COIN,
     payload: coin,
@@ -16,7 +16,7 @@ export const fetchCoinAction = () => async (dispatch) => {
 const singleCoinReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COIN:
-      return { ...state, coin: action.payload };
+      return { ...state, coindata: action.payload };
     default:
       return state;
   }
