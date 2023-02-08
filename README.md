@@ -22,7 +22,9 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [🙏 Acknowledgements](#acknowledgements)
 - [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -171,6 +173,13 @@ Feel free to check the [issues page](../../issues/).
 
 
 Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
