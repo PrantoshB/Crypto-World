@@ -102,6 +102,25 @@ p {
   font-weight: 600;
 }
 
+.search-bar {
+  background: #ec4c8b;
+  display: flex;
+  justify-content: center;
+  margin-top: -2px;
+}
+
+.search {
+  margin: 3% 0;
+  width: 85%;
+  height: 2.5rem;
+  border: 0;
+  outline: 0;
+  padding: 0 4%;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   .coin-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -164,5 +183,15 @@ p {
   .navbar {
     height: 5rem;
     font-size: 1.5rem;
+  }
+
+  .search {
+    width: 40%;
+    height: 3rem;
+    margin: 0;
+  }
+
+  .search-bar {
+    height: 4rem;
   }
 }
