@@ -54,7 +54,7 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 
-.coin {
+.coin-link {
   background: #dc4782;
   padding: 7%;
   display: flex;
@@ -73,7 +73,7 @@ p {
 }
 
 .lastcoin {
-  margin-left: auto;
+  text-align: right;
 }
 
 .coin img {
@@ -81,8 +81,8 @@ p {
   margin: 5%;
 }
 
-.coin:nth-child(4n+3),
-.coin:nth-child(4n+2) {
+.coin-link:nth-child(4n+3),
+.coin-link:nth-child(4n+2) {
   background: #d1447a;
 }
 
@@ -100,4 +100,69 @@ p {
   padding-left: 2%;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+  .coin-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .coin img {
+    width: 8rem;
+  }
+
+  .lastmenu {
+    gap: 2rem;
+  }
+
+  .lastcoin {
+    text-align: center;
+  }
+
+  .cointop {
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .slide {
+    height: 35vh;
+    gap: 4rem;
+  }
+
+  .main-logo {
+    width: 20%;
+  }
+
+  .coin h3 {
+    font-size: 1.5rem;
+  }
+
+  .coin p {
+    font-size: 1.2rem;
+  }
+
+  .coin-link {
+    height: 25vh;
+    align-items: center;
+    text-align: center;
+    border: 0.5px solid rgb(74, 56, 61);
+    background: #d1447a;
+  }
+
+  .coin-link:nth-child(even) {
+    background: #dc4782;
+  }
+
+  .slide h4 {
+    font-size: 2.5rem;
+  }
+
+  .slide p {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    height: 5rem;
+    font-size: 1.5rem;
+  }
 }

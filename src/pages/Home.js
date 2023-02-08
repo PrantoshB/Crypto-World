@@ -20,7 +20,7 @@ const Home = () => {
       <div className="cointop"><p>Stats by cryptocurrencies</p></div>
       <div className="coin-container">
         {coins.map((coin) => (
-          <Link to={`/details/${coin.id}`} key={coin.id} element={<Details />}>
+          <Link className="coin-link" to={`/details/${coin.id}`} key={coin.id} element={<Details />}>
             <Coin
               id={coin.id}
               name={coin.name}
