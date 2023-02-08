@@ -10,6 +10,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -42,6 +43,13 @@
   </ul>
 </details>
 
+### Key Features <a name="key-features"></a>
+
+ - When the page loads, the webapp shows the list of categories that could be filtered out by some parameter, for example by the category name.
+  - Along with the category name, you will display some numeric values per category that come from the API.
+  - When the user clicks (or taps) on a category item, the application navigates to the details page.
+- In the details page, the webapp retrieves data from the API to show detailed data in the category.
+ - When the user clicks on the "Back" button (<), the user navigates to the home page.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
