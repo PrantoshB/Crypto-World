@@ -59,6 +59,7 @@
 
 
 - [Live Demo Link](https://crypto-world-pb.onrender.com/)
+- [Loom Video](https://www.loom.com/share/190d5f55ce9d4fe68a894e77d060c0c9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
