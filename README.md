@@ -5,6 +5,9 @@
   <h1><b>Crypto World</b></h1>
 </div>
 
+![Screenshot](https://user-images.githubusercontent.com/93311467/217539270-968aa1d2-f87c-4ef7-8cab-2b7dcd56a126.jpg)
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
