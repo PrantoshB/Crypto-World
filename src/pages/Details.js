@@ -27,43 +27,43 @@ const Details = () => {
       </div>
       <div className="cointop"><p>Cryptocurrency Details</p></div>
       <div className="details-info">
-        <h3>
-          Market Cap Rank:
-          {data.market_cap_rank}
-        </h3>
-        <h3>
-          Market Cap:  $
-          {data.market_cap}
-        </h3>
-        <h3>
-          24h High:  $
-          {data.high_24h}
-        </h3>
-        <h3>
-          24h Low:  $
-          {data.low_24h}
-        </h3>
-        <h3>
-          Price Change 24h:
-          {data.price_change}
-        </h3>
-        <h3>
-          Market Cap Change:
-          {data.price_change.toFixed(5)}
-        </h3>
-        <h3>
-          Total Supply:
-          {data.price_change}
-        </h3>
-        <h3>
-          Max Supply:
-          {data.price_change}
-        </h3>
-        <h3>
-          Circulating Supply:
-          {data.price_change}
-        </h3>
 
+        <div className="coin-det">
+          <h3>Market Cap Rank</h3>
+          <h3>{data.market_cap_rank}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Market Cap</h3>
+          <h3>{data.market_cap}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>24h High</h3>
+          <h3>{data.high_24h}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>24h Low</h3>
+          <h3>{data.low_24h}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Price Change 24h</h3>
+          <h3>{data.price_change}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Market Cap Change</h3>
+          <h3>{data.market_cap_change}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Total Supply</h3>
+          <h3>{data.total_supply}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Max Supply</h3>
+          <h3>{data.max_supply}</h3>
+        </div>
+        <div className="coin-det">
+          <h3>Circulating Supply</h3>
+          <h3>{data.circulating_supply}</h3>
+        </div>
       </div>
     </div>
   );
