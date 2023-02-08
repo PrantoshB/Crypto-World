@@ -40,7 +40,7 @@ h3 {
   background: #d1447a;
 }
 
-.coin-det h3:nth-child(2){
+.coin-det h3:nth-child(2) {
   width: 55%;
   text-align: left;
 }

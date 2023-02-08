@@ -1,4 +1,4 @@
-import fetchCoin from "../../services/fetchCoin";
+import fetchCoin from '../../services/fetchCoin';
 
 describe('Fetch Coin', () => {
   test('gets the correct data', async () => {
