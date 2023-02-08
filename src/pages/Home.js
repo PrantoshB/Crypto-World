@@ -14,12 +14,25 @@ const Home = () => {
     dispatch(fetchCoinsAction());
   }, [dispatch]);
 
+  const [search, setSearch] = React.useState('');
+
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
+
+  const filteredCoins = coins.filter(
+    (coin) => coin.name.toLowerCase().includes(search.toLowerCase()),
+  );
+
   return (
     <>
+      <div className="search-bar">
+        <input className="search" type="text" placeholder="Search for Cryptocurrency" onChange={handleChange} />
+      </div>
       <Global />
       <div className="cointop"><p>Stats by cryptocurrencies</p></div>
       <div className="coin-container">
-        {coins.map((coin) => (
+        {filteredCoins.map((coin) => (
           <Link className="coin-link" to={`/details/${coin.id}`} key={coin.id} element={<Details />}>
             <Coin
               id={coin.id}
