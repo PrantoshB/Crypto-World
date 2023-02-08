@@ -22,6 +22,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
