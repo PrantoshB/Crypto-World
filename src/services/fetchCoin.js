@@ -12,6 +12,10 @@ const fetchCoin = async (id) => {
     high_24h: coin.market_data.high_24h.usd,
     low_24h: coin.market_data.low_24h.usd,
     price_change: coin.market_data.price_change_24h,
+    market_cap_change: coin.market_data.market_cap_change_24h,
+    total_supply: coin.market_data.total_supply,
+    max_supply: coin.market_data.max_supply,
+    circulating_supply: coin.market_data.circulating_supply,
     image: coin.image.large,
     description: coin.description.en,
   };
